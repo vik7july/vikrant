@@ -22,6 +22,7 @@ import org.testng.annotations.*;
 	int count=allOptions.size();
 	System.out.println("No. of autosuggestions"+count);
 	System.out.println("List of autosuggstions");
+	System.out.println("List of autosuggstions");
 	for(int i=0;i<count;i++)
 	{
 	String text=allOptions.get(i).getText();
