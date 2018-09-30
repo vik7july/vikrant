@@ -46,11 +46,10 @@ public class BrokenLinksPage {
 		 }
 		 driver.close();
 		 
-	  
-
-		 
-		
-	
-
+	  When User Navigate to LogIn Page
+    And User Enters Username and Password
+    Then Message displayed Login Successfully
+    When User LogOut from the Application
+    Then Message displayed LogOut Successfully
 
 */
