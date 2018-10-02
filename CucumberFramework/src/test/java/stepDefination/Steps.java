@@ -1,4 +1,4 @@
-package stepDefination;
+/*package stepDefination;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -58,9 +58,9 @@ public class Steps {
 	}
 	
 	@When("^enter personal details on checkout page$")
-	public void enter_personal_details_on_checkout_page() throws InterruptedException {
+	public void enter_personal_details_on_checkout_page(String customerName) throws InterruptedException {
 		checkoutPage = pageObjectManager.getCheckoutPage();
-		checkoutPage.fill_PersonalDetails();	
+		//checkoutPage.fill_PersonalDetails(customer);	
 	}
 	
 	@When("^select same delivery address$")
@@ -81,3 +81,4 @@ public class Steps {
 		driver.quit();
 	}	
 }
+*/

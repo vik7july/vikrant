@@ -4,6 +4,8 @@ import cucumber.TestContext;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
+//@Before hook is executed before any scenario  
+//@After hook is executed after scenario
 public class Hooks {
 
 	TestContext testContext;

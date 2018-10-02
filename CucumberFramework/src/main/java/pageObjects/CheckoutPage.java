@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+
+import testDataTypes.Customer;
  
 public class CheckoutPage {
 	
@@ -142,7 +144,7 @@ public class CheckoutPage {
 	}
 	
 	
-	public void fill_PersonalDetails() {
+	public void fill_PersonalDetails(Customer customer) {
 		enter_Name("Aotomation");
 		enter_LastName("Test");
 		enter_Phone("0000000000");

@@ -1,14 +1,17 @@
 package managers;
 
 import dataProvider.ConfigFileReader;
+import dataProvider.JsonDataReader;
 
 //Singleton design pattern to create one object of class
 // Private constructor to restrict instance of class from another class
 //Private static variable which is only instance of class
 //public static method that return instance of class, global acces to get access of singleton class
+
 public class FileReaderManager {
 	private static FileReaderManager fileReaderManager = new FileReaderManager();
 	private static ConfigFileReader configFileReader;
+	private static JsonDataReader jsonDataReader;
 
 	// Private constructor
 	private FileReaderManager() {
@@ -23,6 +26,11 @@ public class FileReaderManager {
 	public ConfigFileReader getConfigFileReader() {
 		return (configFileReader == null) ? new ConfigFileReader() : configFileReader;
 
+	}
+
+	public JsonDataReader getJsonReader() {
+
+		return (jsonDataReader == null) ? new JsonDataReader() : jsonDataReader;
 	}
 }
 /*

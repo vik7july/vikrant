@@ -12,7 +12,7 @@ public class WebDriverManager {
 	private WebDriver driver;
 	private static DriverType driverType;
 	private static EnvironmentType environmentType;
-	private static final String CHROME_DRIVER_PROPERTY = "webdriver.chrome.driver";
+	private static final String GECKO_DRIVER_PROPERTY = "webdriver.gecko.driver";
 
 	public WebDriverManager() {
 		driverType = FileReaderManager.getInstance().getConfigFileReader().getBrowser();
@@ -43,13 +43,13 @@ public class WebDriverManager {
 
 	private WebDriver createLocalDriver() {
 		switch (driverType) {
-		case FIREFOX:
-			driver = new FirefoxDriver();
-			break;
 		case CHROME:
-			System.setProperty(CHROME_DRIVER_PROPERTY,
-					FileReaderManager.getInstance().getConfigFileReader().getDriverPath());
 			driver = new ChromeDriver();
+			break;
+		case FIREFOX:
+			System.setProperty(GECKO_DRIVER_PROPERTY,
+					FileReaderManager.getInstance().getConfigFileReader().getDriverPath());
+			driver = new FirefoxDriver();
 			break;
 		case INTERNETEXPLORER:
 			driver = new InternetExplorerDriver();

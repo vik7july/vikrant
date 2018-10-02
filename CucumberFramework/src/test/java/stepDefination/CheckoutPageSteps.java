@@ -1,7 +1,9 @@
 package stepDefination;
 import cucumber.TestContext;
 import cucumber.api.java.en.When;
+import managers.FileReaderManager;
 import pageObjects.CheckoutPage;
+import testDataTypes.Customer;
  
 public class CheckoutPageSteps {
 	TestContext testContext;
@@ -12,9 +14,10 @@ public class CheckoutPageSteps {
 		checkoutPage = testContext.getPageObjectManager().getCheckoutPage();
 	}
 	
-	@When("^enter personal details on checkout page$")
-	public void enter_personal_details_on_checkout_page(){
-		checkoutPage.fill_PersonalDetails();	
+	@When("^enter \\\"(.*)\\\" personal details on checkout page$")
+	public void enter_personal_details_on_checkout_page(String customerName){
+		Customer customer = FileReaderManager.getInstance().getJsonReader().getCustomerByName(customerName);
+		checkoutPage.fill_PersonalDetails(customer);	
 	}
 	
 	@When("^select same delivery address$")
@@ -31,7 +34,7 @@ public class CheckoutPageSteps {
 	public void place_the_order() {
 		checkoutPage.check_TermsAndCondition(true);
 		checkoutPage.clickOn_PlaceOrder();		
-		testContext.getWebDriverManager().quitDriver();
+		//testContext.getWebDriverManager().quitDriver();
 	}
 
 }
