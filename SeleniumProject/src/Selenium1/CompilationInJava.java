@@ -8,6 +8,9 @@ public class CompilationInJava {
 	bytecode verifier check code legal or not
 	Interpreter read bytecode then execute instruction
 	JIT compiler compile bytecode that have similar functionality at sametime, reduce time needed for compilation
-	compiler is translator from instruction set of JVM to CPU
+	compiler is basically translator from instruction set of JVM to CPU
 */
+	// object is instance of class
+	// new keyword use to locate memory at runtime
+	
 }
