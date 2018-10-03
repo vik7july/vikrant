@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPacka.DataProviderWithExcel_001">
+      <class name="testPack.GmailLoginTest">
         <methods>
-          <include name="Registration_data"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="gmaillogin"/>
         </methods>
-      </class> <!-- testPacka.DataProviderWithExcel_001 -->
+      </class> <!-- testPack.GmailLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
