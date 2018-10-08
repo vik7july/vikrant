@@ -3,7 +3,6 @@ package Program;
 public class CountDigitInInteger {
 	
 	public static void main(String[] args) {
-		
 		int number = 3456789;
 		System.out.println("Count "+countDigit(number));
 		}

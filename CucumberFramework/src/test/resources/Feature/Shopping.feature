@@ -1,4 +1,5 @@
 Feature: User Shopping Details
+@SmokeTest
 Scenario: User Successfully buys clothes online
 Given user is on Home Page
 When he search for "dress"
