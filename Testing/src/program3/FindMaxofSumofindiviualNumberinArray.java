@@ -4,7 +4,6 @@ public class FindMaxofSumofindiviualNumberinArray {
 	public static void main(String[] args) {
 		
 		int[] A = { 22, 35, 334, 44, 2, 87 };
-		int s = 0;
 		int r;
 		int max = 0;
 		for (int i = 0; i < A.length; i++) {
@@ -17,7 +16,7 @@ public class FindMaxofSumofindiviualNumberinArray {
 			if (sum > max) {
 				max = sum;
 			}
-			System.out.println(sum);
+			System.out.println("Sum of individual integer is "+sum);
 		}
 		System.out.println("Max is " + max);
 	}

@@ -27,7 +27,7 @@ public class ConvertArrayListofStringTypetoDateType {
 		// sdf.parse(dateString) - convert the String into a Date accoring the pattern
 		// dates.add(...) - add the Date to the list
 		dates.add(sdf.parse(d));
-	
+		System.out.println(dates);
 	}
-	System.out.println(dates);
+	
 }}

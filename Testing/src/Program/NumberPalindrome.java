@@ -4,7 +4,7 @@ public class NumberPalindrome {
 
 	 public static void main(String args[])  
 	   {  
-	      String original="12321";
+	      String original="12341";
 	      String reverse = "";    
 	      System.out.println(original);  
 	       

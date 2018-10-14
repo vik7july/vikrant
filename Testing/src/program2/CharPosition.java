@@ -15,6 +15,7 @@ public class CharPosition {
 		    for (int j = 0; j < myString.length(); j++) {
 		        if (j % 2 == 0) {
 		            even += myString.charAt(j);
+		            System.out.println("Character at "+j +" index is "+myString.charAt(j));
 		        } else {
 		            odd += myString.charAt(j);
 		        }

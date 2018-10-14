@@ -1,6 +1,8 @@
 package program3;
 
 public class SumofDigitinNumber {
+	
+	
 	public static void main(String[] args) {
 		int n = 2345;
 		int s = 0;
@@ -12,5 +14,6 @@ public class SumofDigitinNumber {
 			n = n / 10;
 		}
 		System.out.println(s);
+		
 	}
 }

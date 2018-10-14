@@ -12,7 +12,7 @@ package pages;
 	import org.testng.annotations.Test;
 	import util.Log;
 
-	//@Listeners(listener_Demo.ListenerTest.class)
+	@Listeners(listener_Demo.ListenerTest.class)
 
 	public class HomePageListener {
 	//Test to pass as to verify listeners.		

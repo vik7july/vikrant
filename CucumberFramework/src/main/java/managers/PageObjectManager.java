@@ -49,6 +49,6 @@ public class PageObjectManager {
 
 		return (checkoutPage == null) ? checkoutPage = new CheckoutPage(driver) : checkoutPage;
 //to create object of page class if object is null
-		//to supply created object if not null
+		// to supply created object if not null
 	}
 }

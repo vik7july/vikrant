@@ -18,8 +18,9 @@ public class FindMinDiffofindiviualNumberinArray {
 			if (min > diff) {
 				min = diff;
 			}
+			System.out.println("Difference "+diff);
 		}
-		System.out.println(min);
+		System.out.println("Min difference "+min);
 
 	}
 

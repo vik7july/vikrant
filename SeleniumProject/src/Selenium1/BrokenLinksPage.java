@@ -45,7 +45,7 @@ public class BrokenLinksPage {
 		 }
 		 }
 		 driver.close();
-		 
+		// if gretaer or equal than 400 broken links 
 	  When User Navigate to LogIn Page
     And User Enters Username and Password
     Then Message displayed Login Successfully
