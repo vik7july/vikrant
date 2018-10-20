@@ -1,18 +1,19 @@
-package Program;
+/*package Program;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class MyComparator implements Comparator<Object> {
+public class ComparatorArray implements Comparator<Object> {
 
-	Map<String, Integer> map;
+	List<Integer> map;
 
-	public MyComparator(Map<String, Integer> map) {
+	public ComparatorArray(List<Integer> map) {
 		this.map = map;
 	}
 
@@ -30,17 +31,18 @@ public class MyComparator implements Comparator<Object> {
 	}
 
 	public static void main(String[] args) {
-		Map<String, Integer> lMap = new HashMap<String, Integer>();
-		lMap.put("A", 35);
-		lMap.put("B", 75);
-		lMap.put("C", 50);
-		lMap.put("D", 50);
+		List<Integer> lMap = new ArrayList<Integer>();
+		lMap.add(35);
+		lMap.add(75);
+		lMap.add(50);
+		lMap.add(50);
 		System.out.println(lMap);
 
-		MyComparator comparator = new MyComparator(lMap);
+		ComparatorArray comparator = new ComparatorArray(lMap);
 
-		Map<String, Integer> newMap = new TreeMap<String, Integer>(comparator);
-		newMap.putAll(lMap);
+		List<Integer> newMap = new LinkedList<Integer>(comparator);
+		newMap.addAll(lMap);
 		System.out.println(newMap);
 	}
 }
+*/
