@@ -47,110 +47,110 @@
       <![CDATA[AfterSuite]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-10-12T08:32:02Z" name="Default suite" finished-at="2018-10-12T08:32:03Z" duration-ms="45">
+  <suite started-at="2018-10-16T05:05:04Z" name="Default suite" finished-at="2018-10-16T05:05:04Z" duration-ms="40">
     <groups>
     </groups>
-    <test started-at="2018-10-12T08:32:02Z" name="Default test" finished-at="2018-10-12T08:32:03Z" duration-ms="45">
+    <test started-at="2018-10-16T05:05:04Z" name="Default test" finished-at="2018-10-16T05:05:04Z" duration-ms="40">
       <class name="testPack.testngAnnotations">
-        <test-method is-config="true" signature="beforesuite()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:02Z" name="beforesuite" finished-at="2018-10-12T08:32:02Z" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="beforesuite" finished-at="2018-10-16T05:05:04Z" duration-ms="12" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeSuite]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method is-config="true" signature="testit()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:02Z" name="testit" finished-at="2018-10-12T08:32:02Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testit()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="testit" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeTest]]>
             </line>
           </reporter-output>
         </test-method> <!-- testit -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:02Z" name="openApp" finished-at="2018-10-12T08:32:02Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="openApp" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:02Z" name="login" finished-at="2018-10-12T08:32:02Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[@BeforeMethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="deleteUser()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:02Z" name="deleteUser" finished-at="2018-10-12T08:32:03Z" duration-ms="6" status="PASS">
+        <test-method signature="deleteUser()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="deleteUser" finished-at="2018-10-16T05:05:04Z" duration-ms="6" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test3]]>
             </line>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="logout" finished-at="2018-10-12T08:32:03Z" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[@AfterMethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="login" finished-at="2018-10-12T08:32:03Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="login" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="editUser()[pri:2, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="editUser" finished-at="2018-10-12T08:32:03Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Test1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- editUser -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="logout" finished-at="2018-10-12T08:32:03Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="logout" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="editUser()[pri:2, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="editUser" finished-at="2018-10-12T08:32:03Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Test1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- editUser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="login" finished-at="2018-10-12T08:32:03Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="login" finished-at="2018-10-16T05:05:04Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@BeforeMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="logout" finished-at="2018-10-12T08:32:03Z" duration-ms="1" status="PASS">
+        <test-method signature="editUser()[pri:2, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="editUser" finished-at="2018-10-16T05:05:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="logout" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="closeApp" finished-at="2018-10-12T08:32:03Z" duration-ms="0" status="PASS">
+        <test-method signature="editUser()[pri:2, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="editUser" finished-at="2018-10-16T05:05:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="login" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="logout" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="closeApp" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="testaf()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="testaf" finished-at="2018-10-12T08:32:03Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testaf()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="testaf" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[@AfterTest]]>
             </line>
           </reporter-output>
         </test-method> <!-- testaf -->
-        <test-method is-config="true" signature="aftersuite()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-12T08:32:03Z" name="aftersuite" finished-at="2018-10-12T08:32:03Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:testPack.testngAnnotations@f2ff811]" started-at="2018-10-16T05:05:04Z" name="aftersuite" finished-at="2018-10-16T05:05:04Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[AfterSuite]]>

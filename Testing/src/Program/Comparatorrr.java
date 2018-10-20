@@ -27,7 +27,7 @@ al.add(354);
 al.add(2);
 
 //Comparatorrr ss = new Comparatorrr(al);
-Collections.sort(al);  
+//Collections.sort(al);  
 for(Integer st:al){  
 System.out.println(st);  
 }  
