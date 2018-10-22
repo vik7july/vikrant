@@ -18,7 +18,7 @@ public class Dates {
  // Now format the date..
  String date1= dateFormat.format(date);
  
- // Print the Dateqd
+ // Print the Dateqd..
  System.out.println(date1);
  
  }
