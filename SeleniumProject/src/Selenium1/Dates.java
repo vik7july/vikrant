@@ -11,14 +11,14 @@ public class Dates {
  // Create object of SimpleDateFormat class and decide the format
  DateFormat dateFormat = new SimpleDateFormat("MM/yyyy/dd  HH:mm:ss");
  
- //get current date time with Date()
+ //get current date time with Date().a
  Date date = new Date();
  System.out.println(date);
  
- // Now format the date
+ // Now format the date..
  String date1= dateFormat.format(date);
  
- // Print the Date
+ // Print the Dateqd
  System.out.println(date1);
  
  }
