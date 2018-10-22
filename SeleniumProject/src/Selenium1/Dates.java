@@ -15,7 +15,7 @@ public class Dates {
  Date date = new Date();
  System.out.println(date);
  
- // Now format the date
+ // Now format the date.
  String date1= dateFormat.format(date);
  
  // Print the Date
