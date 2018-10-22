@@ -11,7 +11,7 @@ public class Dates {
  // Create object of SimpleDateFormat class and decide the format
  DateFormat dateFormat = new SimpleDateFormat("MM/yyyy/dd  HH:mm:ss");
  
- //get current date time with Date()
+ //get current date time with Date().
  Date date = new Date();
  System.out.println(date);
  
