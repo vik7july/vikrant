@@ -23,7 +23,7 @@
  * store local variables and function call while heap memory is used to store
  * objects in Java. ... 5) Variables stored in stacks are only visible to the
  * owner Thread while objects created in the heap are visible to all thread.
- * 
+ 
  * Variables allocated on the stack are stored directly to the memory and access
  * to this memory is very fast, and it's allocation is dealt with when the
  * program is compiled. ... The basic difference between stack and heap is that

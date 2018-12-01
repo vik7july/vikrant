@@ -6,7 +6,5 @@ public class Constructor {
 	//no return type
 	// same name as class name
 	// used to initailize object
-	// reutrn current class instance
-	
-
+	// return current class instance
 }

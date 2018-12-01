@@ -53,6 +53,33 @@ public class ReadJSONExamples
         System.out.println(website);
     }
 public class ReadJosn {
+using gson
+ public static void main(String[] args)
+    {
+        Gson gson=new Gson();
+        try {
+            System.out.println("Reading JSON from a file");
+            System.out.println("----------------------------");
+
+            BufferedReader br = new BufferedReader(new FileReader("testGson.json"));
+            //convert the json string back to object
+            TestCases testCasesObj = gson.fromJson(br, TestCases.class);
+
+            System.out.println("Name Of Test Name: "+testCasesObj.getTestName());
+            System.out.println("Name of Test Module: "+testCasesObj.getTestModule());
+            System.out.println("Name of Test Verification: "+testCasesObj.getVerification());
+            System.out.println("Test Steps are :");
+
+            List listOfTestSteps = testCasesObj.getTestSteps();
+            for (int i = 0; i < listOfTestSteps.size(); i++) {
+                System.out.println("Id: " +listOfTestSteps.get(i).getId() + "   Step:  " + listOfTestSteps.get(i).getStep());
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
 
 }
 */
