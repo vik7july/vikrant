@@ -10,7 +10,7 @@ public class ReverseEachWordItselfwithoutanyFunction {
 		      for (int j = words[i].length() - 1; j >= 0; j--) {
 		        reverse += words[i].charAt(j);
 		      }
-		      System.out.print(reverse + " ");
+		      System.out.print(reverse + "  ");
 		      reverse = "";
 		    
 		  }
