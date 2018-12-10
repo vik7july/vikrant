@@ -26,4 +26,6 @@ public class Thread {
 	}
 }
 in java9 we can create private method inside interface
+
+System is the class for the standard input and output streams while out is the object of the class. So we write it as System.out. and println() is the method that is used to print the string as line. System is a class which has a static variable out of type PrintStream and println is a method in the PrintStream class
 */
