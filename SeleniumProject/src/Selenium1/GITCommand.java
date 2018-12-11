@@ -34,5 +34,6 @@ public class GITCommand {
 	//If you mess up, you can replace the changes in your working tree with the last content in head: Changes already added to the index, as well as new files, will be kept   git checkout -- <filename>
 // Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this:  git fetch origin
 //git reset --hard origin/master
+//*[contains(@href,'yes-bank')]/../following-sibling::td[2]
 	
 }
