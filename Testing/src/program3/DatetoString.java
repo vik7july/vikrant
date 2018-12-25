@@ -10,9 +10,7 @@ public class DatetoString {
 		 Date d =Calendar.getInstance().getTime();
 		 DateFormat  dd = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 		 String str = dd.format(d);
-		 System.out.println("String is "+str);
-		  
-		  
+		 System.out.println("String is "+str);		  
 	  }
 
 }

@@ -17,10 +17,6 @@ public class Comparabless {
 		
 		//Collections.sort(al);
 		System.out.println(al);
-		
-		
-				
-
 	}
 
 }

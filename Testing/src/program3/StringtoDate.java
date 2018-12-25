@@ -11,7 +11,4 @@ public class StringtoDate {
 		Date dd = new SimpleDateFormat("dd/MM/yyyy").parse(d);
 		System.out.println("date is "+dd);
 	}
-	
-	
-
 }

@@ -25,9 +25,6 @@ public class RemoveDuplicateCharfromString {
 
 			s1[i] = (char) temp[i];
 			System.out.print(s1[i] + " ");
-
 		}
-
 	}
-
 }

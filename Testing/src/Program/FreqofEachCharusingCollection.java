@@ -25,7 +25,10 @@ public class FreqofEachCharusingCollection {
 		for (HashMap.Entry m : map.entrySet()) {
 			// System.out.println(m);
 			System.out.println(m.getKey() + " " + m.getValue());
-		}
 
+			// hashCode() method is used to get the hash Code of an object.
+			// Hashing is a process of converting an object into integer form by using the
+			// method hashCode().
+		}
 	}
 }
