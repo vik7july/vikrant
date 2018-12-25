@@ -19,5 +19,4 @@ public class Arraylist {
 			System.out.println(itr.next());
 		}
 	}
-
 }

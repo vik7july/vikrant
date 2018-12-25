@@ -12,9 +12,7 @@ public class FlashObjectWebDriver {
 	 this.webDriver = webDriver;
 	 this.flashObjectId = flashObjectId;
 	 }
-	 
-	 
-	 
+	
 	public String callFlashObject(final String functionName, final String... args) {
 	 final Object result =
 	 ((JavascriptExecutor)webDriver).executeScript(

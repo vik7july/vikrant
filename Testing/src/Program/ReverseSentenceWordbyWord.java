@@ -5,7 +5,7 @@ public class ReverseSentenceWordbyWord
 	{
 	    public static String reverseTheSentence(String inputString)
 	    {
-	        String[] words = inputString.split("\\s");
+	        String[] words = inputString.split(" ");
 	         
 	        String outputString = "";
 	         

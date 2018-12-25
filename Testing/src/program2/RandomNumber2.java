@@ -11,9 +11,5 @@ public class RandomNumber2 {
 			int rn = r.nextInt(1000);
 			System.out.println("Random Number: "+rn);
 		}
-		
-				
-
 	}
-
 }

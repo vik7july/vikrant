@@ -5,7 +5,7 @@ public class Anagram {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s1 = "abce";
-		String s2 = "bcad";
+		String s2 = "bcez";
 		int l1 = s1.length();
 		int l2 = s2.length();
 		if (l1 == l2) {
