@@ -25,6 +25,10 @@ Java -cp C:\Users\User123\TestNG\lib*;C:\Users\User123\TestNG\bin org.testng.Tes
 Cucumber: If we want to run particular scenario put tag before sceanario in feature file and also in Junit runner class mention that tag as tags={@smoke}, in cucumber.options
 
 To run cucumber from command prompt go to project directory and enter mvn test
+
+‘WebDriver‘ is an interface and we are creating an object of type WebDriver instantiating an object of FirefoxDriver class.
+*If we create a reference variable driver of type WebDriver then we could use the same driver variable to work with any browser of our choice such as IEDriver, SafariDriver etc.,
+*
 */
 
 }
