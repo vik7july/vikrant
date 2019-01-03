@@ -8,7 +8,7 @@ public class SpecialCharInJava {
 
 		Pattern pattern = Pattern.compile("[^A-Za-z0-9]");
 
-		String str = "ab#cdefgg";
+		String str = "abcdefgg";
 		Matcher m = pattern.matcher(str);
 		boolean b = m.find();
 		if (b == true) {

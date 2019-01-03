@@ -18,7 +18,7 @@ public class EncapsulationPage {
 	public void setAge(int age) {
 		this.age =age;
 	}
-	public void setName(String string) {
+	public void setName(String name) {
 		this.name =name;
 	}
 
